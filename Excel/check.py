@@ -16,8 +16,8 @@ file_name = "check.xls"
 # 获取当前时间
 time_ = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
 
-students_all = {"张三": "18866668888", 
-                "李四": "16688886666",
+students_all = {"张抗疫": "18866668888", 
+                "李爱国": "16688886666",
                 }
 
 try:
