@@ -34,14 +34,11 @@ try:
                 break
         else:
             num += 1
-            # 按正常格式显示号码, 发到微信后可直接点击拨打
-            print("%s,未完成数据填写！电话：%s" % 
-                    (student, students_all[student]))
-
-            # 设置电话号码格式为: xxx-xxxx-xxxx
-            # print("%s,未完成数据填写！电话：%s-%s-%s" % 
-            #         (i, students_list[i][0:3], students_list[i][3:7], 
-            #           students_list[i][7:11]))
+            # 输出电话号码格式为: xxx-xxxx-xxxx
+            print("%s,未完成数据填写！电话：%s-%s-%s" % 
+            	(student, students_all[student][0:3], 
+                students_all[student][3:7], 
+                students_all[student][7:11]))
 
     if num == 0:
         print("\n全部学生完成填写, 时间：" + time_)
