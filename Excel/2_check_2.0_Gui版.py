@@ -34,7 +34,7 @@ class Check(QWidget):
 
     def showDialog(self):
         
-        fname = QFileDialog.getOpenFileName(self, '选择excel文件', '/home')
+        fname = QFileDialog.getOpenFileName(self, '选择excel文件', 'D:\下载', 'Excel file(*.xls)')
 
         if fname[0]:
 
